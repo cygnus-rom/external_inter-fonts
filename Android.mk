@@ -34,6 +34,12 @@ $(eval include $(BUILD_PREBUILT))
 endef
 
 font_src_files += \
+    Inter-BoldItalic.ttf \
+    Inter-Bold.ttf \
+    Inter-Italic.ttf \
+    Inter-MediumItalic.ttf \
+    Inter-Medium.ttf \
+    Inter-Regular.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
