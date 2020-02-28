@@ -21,3 +21,6 @@ PRODUCT_PACKAGES += \
     Inter-MediumItalic.ttf \
     Inter-Medium.ttf \
     Inter-Regular.ttf
+
+PRODUCT_COPY_FILES += \
+    external/inter-fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
