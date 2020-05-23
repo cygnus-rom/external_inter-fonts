@@ -35,7 +35,6 @@ endef
 
 font_src_files += \
     Inter-BoldItalic.ttf \
-    Inter-Bold.ttf \
     Inter-Italic.ttf \
     Inter-MediumItalic.ttf \
     Inter-Medium.ttf \
